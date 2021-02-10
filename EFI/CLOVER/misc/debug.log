@@ -1,0 +1,233 @@
+0:100  0:100  MemLog inited, TSC freq: 2494329355
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 09.02.2021,  12:54:42 (GMT)
+0:100  0:000  Starting Clover revision: 5100 (master, commit 90148880) on Phoenix Technologies Ltd. EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/Clover/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x0,0x0)\USB(0x1,0x0)\HD(2,GPT,978906F1-8E7B-437F-A451-0F57E1C1FFAE,0x14D000,0x96000) @C984B218
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingston
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 1016A825
+0:100  0:000  SmbiosTable.Type17->PartNumber = 99P5428-026.A00LF 
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: '20178' with board '20178 '
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=306A9
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i3-3120M CPU @ 2.50GHz
+0:100  0:000   The CPU not supported turbo
+0:100  0:000  MSR 0x35               20004
+0:100  0:000  MSR 0xE2 before patch 1E008404
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              00080C10_E0011900
+0:100  0:000  corrected FLEX_RATIO = 100000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 25.0/12
+0:100  0:000  Turbo: 25/25/25/25
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2500 MHz
+0:100  0:000  TSC: 2500 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  GOP found at: <null string>
+0:100  0:000  PCI (00|00:14.00) : 8086 1E31 class=0C0330
+0:100  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:100  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 4000 (Intel)
+0:100  0:000  PCI (00|00:1F.00) : 8086 1E57 class=060100
+0:100  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:100  0:000  PCI (00|00:1C.01) : 8086 1E12 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 1E14 class=060400
+0:100  0:000  PCI (00|00:1C.03) : 8086 1E16 class=060400
+0:100  0:000  PCI (00|00:1F.02) : 8086 1E03 class=010601
+0:100  0:000  PCI (00|02:00.00) : 10EC 8176 class=028000
+0:100  0:000   - WIFI: Vendor=Realtek
+0:100  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:100  0:000  PCI (00|03:00.00) : 10EC 5229 class=FF0000
+0:100  0:000  PCI (00|08:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:100  0:000  PCI (00|00:16.00) : 8086 1E3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.02) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:100  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 0 bytes
+0:138  0:037  EFI\CLOVER\config.plist loaded: Success
+0:138  0:000  === [ GetListOfThemes ] ===================================
+0:148  0:010  - [00]: black_green
+0:158  0:010  - [01]: El Capitan
+0:178  0:020  - [02]: Mojave
+0:209  0:030  === [ Found config plists ] ===============================
+0:209  0:000  - config.plist
+0:209  0:000  === [ GetEarlyUserSettings ] ==============================
+0:209  0:000  timeout set to 10
+0:209  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+1:249  1:040  KextsToPatch: 3 requested
+1:460  0:210   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: data len: 8
+2:591  1:131   - [01]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+3:570  0:978   - [02]: com.apple.driver.usb.AppleUSBXHCI (change 15 port limit to 26 in XHCI kext for 10.14.1 by Ricky) :: BinPatch :: data len: 9
+4:705  1:134  Default theme: Mojave
+4:917  0:212  Hiding entries with string BOOTX64.EFI
+5:267  0:350  Hiding entries with string Windows
+5:478  0:210  Hiding entries with string RECOVERY
+5:687  0:209  Hiding entries with string Preboot
+5:896  0:208  === [ LoadDrivers ] =======================================
+16:679  10:783  Loading ApfsDriverLoader.efi  status=Success
+17:599  0:919   - driver needs connecting
+17:946  0:347  Loading FSInject.efi  status=Success
+18:585  0:638  Loading OsxAptioFixDrv.efi  status=Success
+19:532  0:946  Loading VBoxHfs-64.efi  status=Success
+20:305  0:773   - driver needs connecting
+20:515  0:209  2 drivers needs connecting ...
+20:723  0:208  PlatformDriverOverrideProtocol not found. Installing ... Success
+21:140  0:416  APFS driver loaded
+21:637  0:497  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+24:606  2:968  === [ InitScreen ] ========================================
+35:563  10:956  Console modes reported: 7, available modes:
+35:772  0:209   - [01]: 80x25 (current mode)
+35:982  0:209   - [03]: 96x25
+36:193  0:210   - [04]: 128x40
+36:693  0:499   - [05]: 80x25
+36:905  0:212   - [06]: 100x31
+37:256  0:350   - [07]: 170x40
+37:468  0:212  SetMaxResolution: found best mode 4: 1366x768
+38:023  0:554  Video mode change to mode #4: Success
+38:232  0:209   - set
+38:440  0:207  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x0,0x0)\USB(0x1,0x0)\HD(2,GPT,978906F1-8E7B-437F-A451-0F57E1C1FFAE,0x14D000,0x96000)
+38:938  0:497  === [ GetMacAddress ] =====================================
+48:952  10:014  MAC address of LAN #0= 3C:97:0E:77:B9:F9:
+51:054  2:101  MAC address of LAN #1= 3C:97:0E:77:B9:F9:
+53:159  2:105  === [ ScanSPD ] ======================================0:100  0:100  MemLog inited, TSC freq: 2494325795
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 09.02.2021,  12:56:26 (GMT)
+0:100  0:000  Starting Clover revision: 5100 (master, commit 90148880) on Phoenix Technologies Ltd. EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/Clover/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x0,0x0)\USB(0x1,0x0)\HD(2,GPT,978906F1-8E7B-437F-A451-0F57E1C1FFAE,0x14D000,0x96000) @C9886798
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingston
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 1016A825
+0:100  0:000  SmbiosTable.Type17->PartNumber = 99P5428-026.A00LF 
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: '20178' with board '20178 '
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=306A9
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i3-3120M CPU @ 2.50GHz
+0:100  0:000   The CPU not supported turbo
+0:100  0:000  MSR 0x35               20004
+0:100  0:000  MSR 0xE2 before patch 1E008404
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              00080C10_E0011900
+0:100  0:000  corrected FLEX_RATIO = 100000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 25.0/12
+0:100  0:000  Turbo: 25/25/25/25
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2500 MHz
+0:100  0:000  TSC: 2500 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  GOP found at: <null string>
+0:100  0:000  PCI (00|00:14.00) : 8086 1E31 class=0C0330
+0:100  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:100  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 4000 (Intel)
+0:100  0:000  PCI (00|00:1F.00) : 8086 1E57 class=060100
+0:100  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:100  0:000  PCI (00|00:1C.01) : 8086 1E12 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 1E14 class=060400
+0:100  0:000  PCI (00|00:1C.03) : 8086 1E16 class=060400
+0:100  0:000  PCI (00|00:1F.02) : 8086 1E03 class=010601
+0:100  0:000  PCI (00|02:00.00) : 10EC 8176 class=028000
+0:100  0:000   - WIFI: Vendor=Realtek
+0:100  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:100  0:000  PCI (00|03:00.00) : 10EC 5229 class=FF0000
+0:100  0:000  PCI (00|08:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:100  0:000  PCI (00|00:16.00) : 8086 1E3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:100  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 0 bytes
+0:138  0:037  EFI\CLOVER\config.plist loaded: Success
+0:138  0:000  === [ GetListOfThemes ] ===================================
+0:148  0:010  - [00]: black_green
+0:158  0:010  - [01]: El Capitan
+0:179  0:020  - [02]: Mojave
+0:209  0:030  === [ Found config plists ] ===============================
+0:209  0:000  - config.plist
+0:209  0:000  === [ GetEarlyUserSettings ] ==============================
+0:209  0:000  timeout set to 10
+0:209  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:803  0:593  KextsToPatch: 3 requested
+1:015  0:212   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: data len: 8
+2:006  0:990   - [01]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+3:152  1:145   - [02]: com.apple.driver.usb.AppleUSBXHCI (change 15 port limit to 26 in XHCI kext for 10.14.1 by Ricky) :: BinPatch :: data len: 9
+4:149  0:996  Default theme: Mojave
+4:362  0:212  Hiding entries with string BOOTX64.EFI
+4:575  0:212  Hiding entries with string Windows
+5:299  0:724  Hiding entries with string RECOVERY
+5:514  0:215  Hiding entries with string Preboot
+5:730  0:215  === [ LoadDrivers ] =======================================
+16:670  10:939  Loading ApfsDriverLoader.efi  status=Success
+17:294  0:624   - driver needs connecting
+17:502  0:208  Loading FSInject.efi  status=Success
+18:424  0:921  Loading OsxAptioFixDrv.efi  status=Success
+19:209  0:785  Loading VBoxHfs-64.efi  status=Success
+20:126  0:917   - driver needs connecting
+20:336  0:209  2 drivers needs connecting ...
+20:544  0:208  PlatformDriverOverrideProtocol not found. Installing ... Success
+21:107  0:563  APFS driver loaded
+21:317  0:209  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+24:003  2:685  === [ InitScreen ] ==================================
